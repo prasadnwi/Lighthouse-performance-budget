@@ -1,0 +1,21 @@
+{
+  "name": "lighthousePerformanceBudget",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Isuru Prasad Madhuwantha",
+  "license": "ISC",
+  "devDependencies": {
+    "lighthouse": "^6.1.0"
+  },
+  "dependencies": {
+    "@foo-software/lighthouse-persist": "^1.0.0",
+    "fs": "0.0.1-security",
+    "puppeteer": "^1.13.0",
+    "request": "^2.88.0"
+  }
+}
